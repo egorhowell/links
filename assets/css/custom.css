@@ -1,0 +1,9 @@
+/* Scale SVG icons to text size */
+.icon svg {
+  height: 1em;
+  width: 1em;
+}
+
+.link-link {
+  background: #007fff;
+}
