@@ -15,14 +15,14 @@ disableKinds = ["taxonomy", "term"]
   image = "img/author.png"  # path relative to static directory
 
   links = [
-
+      { link = { href = "https://testimonial.to/egor-howell/love", text = "What People Say About Me"}},
       { youtube = "https://youtube.com/@egorhowell" },
-      { link = { href = "https://newsletter.egorhowell.com/", text = "Newsletter"}},
+      { email = { href = "https://newsletter.egorhowell.com/", text = "Newsletter"}},
       { medium = {href = "https://medium.com/@egorhowell", text = "Tech Blog"}},
       { linkedin = "https://linkedin.com/in/egorhowell" },
       { instagram = "https://instagram.com/egorhowell" },
-      { github = "https://github.com/egorhowell" },
-      { x = { href = "https://x.com/egorhowell", text = "Twitter/X"}},
+#      { github = "https://github.com/egorhowell" },
+#      { x = { href = "https://x.com/egorhowell", text = "Twitter/X"}},
 
     # { link = "https://link-to-some-website.com/" },
     # { amazon = "https://www.amazon.com/hz/wishlist/ls/wishlist-id" },
